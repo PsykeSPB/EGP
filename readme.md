@@ -20,7 +20,7 @@ git clone git@github.com:PsykeSPB/egp.git .
 npm install
 ```
 
-3. Test it with `gulp command`. If gulp executes without errors, you are ready to start development.
+3. Test it with `gulp` command. If it executes without errors, you are ready to start development.
 
 ## Dependencies
 
