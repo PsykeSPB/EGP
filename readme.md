@@ -1,5 +1,26 @@
-###Empty Gulp project
+#Empty Gulp project
 This package contains empty project that is ready to be deployed.
+
+## Requirements
+
+1. Node.js
+2. Git
+
+## Quick Start
+
+1. Install EGP to your local project directory
+
+```
+git clone git@github.com:PsykeSPB/egp.git .
+```
+
+2. Install all needed dependencies
+
+```
+npm install
+```
+
+3. Test it with `gulp command`. If gulp executes without errors, you are ready to start development.
 
 ## Dependencies
 
@@ -15,4 +36,3 @@ This package contains empty project that is ready to be deployed.
    - gulp-concat-css
 4. Utilites
    - Del
-"# egupro"  git init git add README.md git commit -m "first commit" git remote add origin git@github.com:PsykeSPB/egupro.git git push -u origin master
