@@ -22,6 +22,8 @@ npm install
 
 3. Test it with `gulp` command. If it executes without errors, you are ready to start development.
 
+Dont forget to set project name, description and author in `package.json` file.
+
 ## Usage
 
 Source files should be stored at `src/` folder in any structure of subfolders.
