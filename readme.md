@@ -1,11 +1,15 @@
 # Gulp4 Empty Project
 ## ~ So ready to be deployed
-This package contains empty project that is ready to be deployed.
+This package contains empty project for web-resourse development that is ready to be deployed.
+All you have to start development of your project is to install this package and initiate Gulp4 inside it.
+Check "Quick Start" segment for more information.
 
 ## Requirements
 
+0. Git
+   https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 1. Node.js
-2. Git
+   https://nodejs.org/
 
 ## Quick Start
 
