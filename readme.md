@@ -6,17 +6,15 @@ Check "Quick Start" segment for more information.
 
 ## Requirements
 
-0. Git
-   - https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
-1. Node.js
-   - https://nodejs.org/
+0. [Git]( https://git-scm.com/book/en/v2/Getting-Started-Installing-Git )
+1. [Node.js]( https://nodejs.org/ )
 
 ## Quick Start
 
 1. Install EGP to your local project directory
 
 ```
-git clone git@github.com:PsykeSPB/egp.git .
+git clone git@github.com:PsykeSPB/gep.git .
 ```
 
 2. Install all needed dependencies
