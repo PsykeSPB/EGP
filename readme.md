@@ -7,9 +7,9 @@ Check "Quick Start" segment for more information.
 ## Requirements
 
 0. Git
-   https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+   . https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 1. Node.js
-   https://nodejs.org/
+   . https://nodejs.org/
 
 ## Quick Start
 
