@@ -1,4 +1,5 @@
-# Empty Gulp project
+# Gulp4 Empty Project
+## ~ So ready to be deployed
 This package contains empty project that is ready to be deployed.
 
 ## Requirements
