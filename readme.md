@@ -1,17 +1,20 @@
-#Empty Gulp project
-This package contains empty project that is ready to be deployed.
+# Gulp4 Empty Project
+## ~ So ready to be deployed
+This package contains empty project for web-resourse development that is ready to be deployed.
+All you have to start development of your project is to install this package and initiate Gulp4 inside it.
+Check "Quick Start" segment for more information.
 
 ## Requirements
 
-1. Node.js
-2. Git
+0. [Git]( https://git-scm.com/book/en/v2/Getting-Started-Installing-Git )
+1. [Node.js]( https://nodejs.org/ )
 
 ## Quick Start
 
 1. Install EGP to your local project directory
 
 ```
-git clone git@github.com:PsykeSPB/egp.git .
+git clone git@github.com:PsykeSPB/gep.git .
 ```
 
 2. Install all needed dependencies
@@ -21,6 +24,8 @@ npm install
 ```
 
 3. Test it with `gulp` command. If it executes without errors, you are ready to start development.
+
+Dont forget to set project name, description and author in `package.json` file.
 
 ## Usage
 
