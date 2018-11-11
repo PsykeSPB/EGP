@@ -1,4 +1,5 @@
 const gulp = require("gulp");
+const htmlmin = require("gulp-htmlmin");
 const scss = require("gulp-sass");
 const css_clean = require("gulp-clean-css");
 const css_concat = require("gulp-concat-css");
@@ -31,10 +32,20 @@ const paths = {
   }
 };
 
-let clean = () => del(["assets"]);
+let clear = () => del(["assets"]);
 
 function pages() {
-  return gulp.src(paths.pages.src).pipe(gulp.dest(paths.pages.dest));
+  return gulp
+    .src(paths.pages.src)
+    .pipe(
+      htmlmin({
+        collapseWhitespace: true,
+        removeComments: true,
+        removeEmptyAttributes: true,
+        removeRedundantAttributes: true
+      })
+    )
+    .pipe(gulp.dest(paths.pages.dest));
 }
 
 function styles() {
@@ -60,13 +71,13 @@ function images() {
 function scripts() {
   return gulp
     .src(paths.scripts.src)
+    .pipe(concat("main.min.js"))
     .pipe(
       babel({
         presets: ["@babel/env"]
       })
     )
     .pipe(uglify())
-    .pipe(concat("main.min.js"))
     .pipe(gulp.dest(paths.scripts.dest));
 }
 
@@ -82,6 +93,6 @@ function watch() {
     w_jn = gulp.watch(paths.jsons.src, gulp.series(jsons));
 }
 
-gulp.task("clean", clean);
+gulp.task("clean", clear);
 gulp.task("default", gulp.series(pages, styles, scripts, images, jsons));
 gulp.task("watch", gulp.series(watch));
